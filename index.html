@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facts</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradient background */
+            color: #fff;
+        }
+
+        h1 {
+            background-color: rgba(0,0,0,0.6);
+            color: #ffffff;
+            text-align: center;
+            padding: 25px 40px;
+            font-size: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            margin-bottom: 50px;
+            backdrop-filter: blur(5px);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        a.card {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            padding: 30px 20px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.3rem;
+            flex: 1 1 250px;
+            transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+            backdrop-filter: blur(5px);
+            text-decoration: none; /* Remove underline */
+        }
+
+        a.card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.4);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        @media (max-width: 600px) {
+            a.card {
+                font-size: 1rem;
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Facts</h1>
+    <div class="container">
+        <a class="card" href="space.html">Facts about <strong>SPACE</strong></a>
+        <a class="card" href="humanbody.html">Facts about <strong>HUMAN BODY</strong></a>
+        <a class="card" href="animal.html">Facts about <strong>ANIMALS</strong></a>
+        <a class="card" href="technology.html">Facts about <strong>TECHNOLOGY</strong></a>
+        <a class="card" href="earth.html">Facts about <strong>EARTH</strong></a>
+        <a class="card" href="food.html">Facts about <strong>FOOD</strong></a>
+ <a class="card" href="ocean.html">Facts about <strong>OCEAN</strong></a>
+ <a class="card" href="insect.html">Facts about <strong>INSECTS</strong></a>
+ <a class="card" href="weather.html">Facts about <strong>WEATHER & CLIMATE</strong></a>
+ <a class="card" href="ancient.html">Facts about <strong>ANCIENT CIVILIZATION</strong></a>
+    </div>
+</body>
+</html>
